@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vincent.vpedometer.ui.view.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                               android:id="@+id/home_layout"
+                                               android:layout_width="match_parent"
+                                               android:layout_height="match_parent"
+                                               android:background="#ffffff"
+                                               android:orientation="vertical">
+
+
+    <com.vincent.vpedometer.ui.view.MyListView
+        android:id="@+id/mylistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.vincent.vpedometer.ui.view.MyListView>
+
+</com.vincent.vpedometer.ui.view.MyLinearLayout>

@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    useLibrary 'org.apache.http.legacy'
+    signingConfigs {
+        config {
+            keyAlias 'vincent'
+            keyPassword '5745624'
+            storeFile file('F:/programming/vincent.jks')
+            storePassword '5745624'
+        }
+
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.vincent.vpedometer"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 4
+        versionName "1.3"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    compile 'com.squareup.okhttp3:mockwebserver:3.10.0'
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'com.google.android.gms:play-services-maps:11.4.0'
+    compile 'com.google.android.gms:play-services-location:11.4.0'
+    testCompile 'junit:junit:4.12'
+
+}

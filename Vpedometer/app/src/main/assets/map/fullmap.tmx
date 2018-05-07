@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="10" tilewidth="80" tileheight="60">
+ <tileset firstgid="1" name="132807580832" tilewidth="80" tileheight="60">
+  <image source="132807580832.jpg" width="1200" height="600"/>
+ </tileset>
+ <layer name="block" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwtw2c3FmAAANC3IYkiGlaRzEpKUkIUIdkzSmhpUkZWQ1bJTOr3dj8895y7LxKJ7PeAB43ykNEeNsYjxhrnUY8ZHyZ43ESTPOFJT3naZFNMNc10z3g2zDDTc2Z53mxzzDXPfAu84EUvWRhetsgrXrXYa5Z43VJveNMyb1luRVjpbaus9o53rbHWe9ZZb4P3bfRB2GSzLbbaZrsddtpltz32+tA++8NHPnbAJw465LBPfeZzX/jSEV/5OnzjW9/53lHH/OBHx51w0ik/Oe1MOOuc8372i1/95oLfXXTJZVdc9Uf40zV/ue6Gm2657Y6/3fWPe/71X/gfLVAvdw==
+  </data>
+ </layer>
+ <objectgroup name="fighter" width="16" height="10">
+  <object x="38" y="438"/>
+  <object x="1154" y="434"/>
+ </objectgroup>
+</map>

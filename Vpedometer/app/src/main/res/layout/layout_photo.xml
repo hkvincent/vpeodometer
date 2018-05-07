@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vincent.vpedometer.ui.view.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                               android:id="@+id/photo_layout"
+                                               android:layout_width="match_parent"
+                                               android:layout_height="match_parent"
+                                               android:background="#ffffff"
+                                               android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:minHeight="150dip"
+        android:minWidth="150dip"
+        android:src="@drawable/v"/>
+
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="choose photo"/>
+
+    <TextView
+        android:id="@+id/img_path"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgShow"
+        android:layout_margin="15dip"
+        android:hint="photo path"/>
+
+</com.vincent.vpedometer.ui.view.MyLinearLayout>

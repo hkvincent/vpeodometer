@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<!-- 47.74.150.98 这是默认配置信息 -->
+	<default-config>
+		<!-- 连接四大参数配置 -->
+		<property name="jdbcUrl">jdbc:mysql://47.74.150.98:3306/pedometer?useUnicode=true&amp;characterEncoding=UTF8
+		</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="user">root</property>
+		<property name="password">vincent</property>
+		<!-- 池参数配置 -->
+		<property name="acquireIncrement">3</property>
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">2</property>
+		<property name="maxPoolSize">10</property>
+		<!--最大空闲时间,60秒内未使用则连接被丢弃。若为0则永不丢弃。Default: 0 -->
+		<property name="maxIdleTime">18000</property>
+	</default-config>
+
+	<!-- 专门为oracle提供的配置信息 -->
+	<named-config name="oracle-config">
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/mydb1</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="user">root</property>
+		<property name="password">123</property>
+		<property name="acquireIncrement">3</property>
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">2</property>
+		<property name="maxPoolSize">10</property>
+	</named-config>
+
+</c3p0-config>

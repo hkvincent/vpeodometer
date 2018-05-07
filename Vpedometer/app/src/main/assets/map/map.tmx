@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="10" tilewidth="30" tileheight="32">
+ <tileset firstgid="1" name="132807580832" tilewidth="30" tileheight="32">
+  <image source="132807580832.jpg" width="1200" height="600"/>
+ </tileset>
+ <layer name="block" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwNw9daDgAAANC/XqA9JL1GA4UQqaThNiqjnREK3RaZUVoUqtuKIquhnXgNJKPIded838kICgQOedhMj5hltjkeNddj5plvgYUet8Zaz3neC160zkte9or1NnjVa1630Ud22GmX3fb42Cf22udTn/ncfgccdNIpp/3ojLPOOe+Ciy657CdX/OwXv/rN7676wzV/+svf/nHdDf/6z03/GxIcCIQaZrgRRhpltDHGus04txvvDhNMNMlkU9zpLnebapp73Os+093vAQ9a5AlPWmyJpZ7ytGc8a5nlVlhpldU22ewNb9riLW97x7ve876tPvChbbY75LAjvvClo475yteO+8a3vvO9H5xwC9VbUoE=
+  </data>
+ </layer>
+ <objectgroup name="fighet" width="16" height="10">
+  <object x="14" y="176" width="38" height="73"/>
+  <object x="430" y="174" width="41" height="75"/>
+ </objectgroup>
+</map>
