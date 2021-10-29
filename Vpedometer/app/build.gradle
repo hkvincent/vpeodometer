@@ -5,9 +5,9 @@ android {
     signingConfigs {
         config {
             keyAlias 'vincent'
-            keyPassword '5745624'
+            keyPassword '*****'
             storeFile file('F:/programming/vincent.jks')
-            storePassword '5745624'
+            storePassword '*****'
         }
 
     }
